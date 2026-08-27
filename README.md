@@ -2,6 +2,10 @@
 
 API REST em Spring Boot que consulta a previsão do tempo de uma cidade utilizando a [WeatherAPI](https://www.weatherapi.com/).
 
+# Integrantes:
+ - Eli Júnior Domingos Dias
+ - Guilherme Pereira Bittencourt
+
 ## Tecnologias
 
 - Java 25
@@ -30,7 +34,7 @@ src/main/java/com/example/ClimaAPI
 1. Clone o repositório:
    ```bash
    git clone <url-do-repositorio>
-   cd ClimaAPI/ClimaAPI
+   cd ClimaAPI
    ```
 
 2. Configure sua chave da WeatherAPI em `src/main/java/com/example/ClimaAPI/service/Service.java` (campos `token` e `apiUrl`).
